@@ -3,3 +3,6 @@
 # ignore builded files
 /AppVeyorTest/obj
 
+#idnore nuget packages
+/*.nupkg
+

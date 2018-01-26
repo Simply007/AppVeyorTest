@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SimplyAppVeyorTestingPackage</id>
+    <version>1.0.0</version>
+    <authors>Ondřej Chrastina</authors>
+    <owners>Ondřej Chrastina</owners>
+    <licenseUrl>https://github.com/Simply007/AppVeyorTest/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Simply007/AppVeyorTest</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Simply007/AppVeyorTest/master/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Testing package used for learning App veyor deployment process.</description>
+    <releaseNotes>Testing release.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Test AppVeyor</tags>
+    <dependencies>
+      <!-- <dependency id="SampleDependency" version="1.0" /> -->
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="AppVeyorTest\bin\Release\netstandard1.4\AppVeyorTest.dll" target="lib\netstandard1.4\AppVeyorTest.dll"/>
+  </files>
+</package>
