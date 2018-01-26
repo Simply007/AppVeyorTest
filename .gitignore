@@ -1,0 +1,5 @@
+﻿# VS files are not necessary
+/.vs/AppVeyorTest/v15
+# ignore builded files
+/AppVeyorTest/obj
+
